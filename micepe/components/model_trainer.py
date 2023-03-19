@@ -23,7 +23,7 @@ class ModelTrainer:
         except Exception as e:
             raise MiceException(e, sys)
 
-    """def fine_tune(self,x,y):
+    def fine_tune(self,x,y):
         try:
             logging.info(f"Initiating hyperparameter tuning")
             param_grid = [
@@ -58,15 +58,15 @@ class ModelTrainer:
             logreg.fit(x,y)
             return logreg
         except Exception as e:
-            raise MiceException(e, sys)"""
+            raise MiceException(e, sys)
 
-    def train_model(self,x,y):
+    """def train_model(self,x,y):
         try:
             logreg =  LogisticRegression()
             logreg.fit(x,y)
             return logreg
         except Exception as e:
-            raise MiceException(e, sys)
+            raise MiceException(e, sys)"""
 
 
     def initiate_model_trainer(self,)->artifact_entity.ModelTrainerArtifact:
