@@ -17,4 +17,5 @@ PyYAML
 numpy
 scikit-learn
 xlrd
+apache-airflow
 -e .
