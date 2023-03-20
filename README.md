@@ -27,5 +27,5 @@ python initiate_train_pipeline.py
 ### Step 3 - To initiate batch prediction run initiate_batch_prediction.py file
 
 ```bash
-python initiate_batch_prediction.py
+python initiate_batch_prediction.py 
 ```
