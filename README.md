@@ -45,13 +45,21 @@ git clone https://github.com/Stranger1894/Mice_protein_expression.git
 pip install -r requirements.txt
 ```
 
-### Step 3 - To initiate model training pipeline run initiate_train_pipeline.py file
+### Step 3 - Load the data available in Data_Cortex_Nuclear.xls into MongoDB
+
+### Step 4 - Add .env file and add the following variables
+
+```bash
+MONGO_DB_URL = "insert_your_mongodb_url"
+```
+
+### Step 5 - To initiate model training pipeline run initiate_train_pipeline.py file
 
 ```bash
 python initiate_train_pipeline.py
 ```
 
-### Step 4 - To initiate batch prediction run initiate_batch_prediction.py file
+### Step 6 - To initiate batch prediction run initiate_batch_prediction.py file
 
 ```bash
 python initiate_batch_prediction.py 
