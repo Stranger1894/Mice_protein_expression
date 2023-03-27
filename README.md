@@ -64,3 +64,7 @@ python initiate_train_pipeline.py
 ```bash
 python initiate_batch_prediction.py 
 ```
+
+## Project Demo Video
+
+Video Link: https://www.linkedin.com/feed/update/urn:li:activity:7043936364010082305/
